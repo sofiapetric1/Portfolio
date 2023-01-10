@@ -1,0 +1,1589 @@
+/*-------------------------------------------------------------
+om mig
+-------------------------------------------------------------*/
+nav ul {
+  display: flex;
+  margin: 50px;
+}
+
+nav ul li {
+  list-style: none;
+  font-size: 25px;
+  margin-left: 240px;
+  font-family: serif;
+  font-weight: bolder;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: antiquewhite;
+}
+
+body {
+  background-color: #c3c1c1;
+}
+
+.om-mig {
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.om-mig img {
+  width: 400px;
+}
+
+.content {
+  margin-left: 20px;
+  background-color: #fff;
+  padding: 2%;
+  line-height: 2rem;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: serif;
+}
+
+.CV {
+  background-color: #4d4d4d;
+  padding: 5%;
+  margin: 3%;
+}
+
+.CV h1 {
+  color: white;
+}
+
+.CV h2 {
+  color: white;
+  margin-top: 4%;
+}
+
+.CV h3 {
+  color: white;
+  margin-top: 4%;
+}
+
+.CV p {
+  color: white;
+  line-height: 2rem;
+}
+
+/*-------------------------------------------------------------
+Tema 2
+-------------------------------------------------------------*/
+body {
+  background-image: url("../img/baggrund2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+
+/* grundlæggende web */
+
+.start h1 {
+  color: white;
+  margin-top: 10px;
+  font-size: 700px;
+  font-family: serif;
+}
+
+.start h2 {
+  font-size: 190px;
+  line-height: 100px;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  background-image: url("../img/back.png");
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
+  font-family: serif;
+}
+
+@keyframes back {
+  100% {
+    background-position: 2000px 0;
+  }
+}
+
+.tekst {
+  margin-top: -83vh;
+  margin-bottom: 25vh;
+}
+
+.tekst h2 {
+  position: relative;
+  font-size: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: serif;
+  margin-top: 7.5%;
+}
+
+.tekst h2 span {
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0%,
+  18%,
+  20%,
+  50.1%,
+  80%,
+  90.1%,
+  92% {
+    color: black;
+    text-shadow: none;
+  }
+  18.1%,
+  20.1%,
+  30%,
+  50%,
+  80.1%,
+  90%,
+  92.1%,
+  100% {
+    color: #fff;
+    text-shadow: 0 0 10px #262626, 0 0 20px #4f4f4f, 0 0 40px #828282,
+      0 0 80px #cacaca, 0 0 160px #ffffff, 0 0 400px #ffffff;
+  }
+}
+
+.tekst p {
+  text-align: center;
+  color: black;
+  line-height: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 450px;
+  font-family: serif;
+}
+
+/* pil */
+.pil_ned2 {
+  margin-top: 10%;
+  margin-left: 150px;
+  font-size: 70px;
+  color: rgba(255, 255, 255, 0.406);
+  font-family: serif;
+}
+
+@keyframes jump {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, -105%, 0);
+  }
+}
+.jump2 {
+  transform-origin: 50% 50%;
+  animation: jump 0.75s linear alternate infinite;
+}
+
+/* computersite */
+.computersite {
+  display: flex;
+  margin-top: 70px;
+  padding: 6%;
+  font-family: serif;
+}
+
+.computersite h2 {
+  font-size: 80px;
+  font-family: serif;
+}
+
+.computersite img {
+  width: 60%;
+  margin-top: 60px;
+  margin-left: 10vh;
+}
+
+.html {
+  font-size: 20px;
+  line-height: 2rem;
+  border: 1px solid black;
+  padding: 50px;
+  font-family: serif;
+}
+
+.CP2 {
+  margin-left: 10vh;
+}
+
+/* Link til website og dokumentation */
+.se {
+  color: rgb(0, 0, 0);
+  margin-left: 175px;
+  font-family: serif;
+}
+.Website1 img {
+  width: 10%;
+  margin-left: 150px;
+  margin-top: -6%;
+}
+
+.Website1:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.streg {
+  margin-top: 90px;
+  margin-left: 80px;
+}
+
+/* stilart */
+.stilart {
+  display: flex;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+.stilart h1 {
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  font-family: serif;
+}
+
+.stilart h2 {
+  font-size: 50px;
+  color: white;
+  font-family: serif;
+}
+
+.stilart2 {
+  padding: 3%;
+  border: 1px solid black;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 3%;
+  font-family: serif;
+}
+
+.stilart p {
+  line-height: 2rem;
+  font-family: serif;
+}
+
+.stilart iframe {
+  margin-left: 1%;
+}
+
+.stilart img {
+  width: 40%;
+}
+
+/* emnesite */
+.emnesite {
+  display: flex;
+  margin-top: 70px;
+  margin-right: 35vh;
+  margin-bottom: 70px;
+}
+
+.emnesite h2 {
+  font-size: 70px;
+  margin-right: 35vh;
+  font-family: serif;
+}
+
+.emnesite p {
+  font-size: 20px;
+  line-height: 2rem;
+  border: 1px solid black;
+  padding: 50px;
+  font-family: serif;
+}
+
+.emnesite img {
+  width: 70%;
+  margin-top: 60px;
+  margin-left: 5vh;
+}
+
+/* Link til emnesite */
+.emnesite1 {
+  width: 40%;
+  margin-left: 60%;
+}
+
+.emnesite1:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.emnesite h4 {
+  font-family: serif;
+  margin-left: 50px;
+}
+
+.streg_1 {
+  margin-left: 7%;
+}
+
+/* Konklusion */
+.Konklusion1 {
+  background-color: #4d4d4d;
+  padding: 5%;
+  margin: 5%;
+}
+.Konklusion1 h2 {
+  color: #fff;
+  font-size: 50px;
+}
+
+.Konklusion1 p {
+  color: #fff;
+  line-height: 2rem;
+  font-size: 18px;
+}
+
+/*-------------------------------------------------------------
+Tema 3
+-------------------------------------------------------------*/
+.baggrund3 {
+  background-image: url("../img/baggrund3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+
+/* grundlæggende ux */
+.start {
+  display: flex;
+  margin-left: 10vh;
+}
+
+.start h1 {
+  color: white;
+  margin-top: 10px;
+  font-size: 700px;
+  font-family: serif;
+}
+
+.tekst2 {
+  margin-top: -74vh;
+  margin-bottom: 25vh;
+  font-family: serif;
+}
+
+.tekst2 h2 {
+  position: relative;
+  font-size: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: serif;
+}
+
+.tekst2 h2 span {
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0%,
+  18%,
+  20%,
+  50.1%,
+  80%,
+  90.1%,
+  92% {
+    color: black;
+    text-shadow: none;
+  }
+  18.1%,
+  20.1%,
+  30%,
+  50%,
+  80.1%,
+  90%,
+  92.1%,
+  100% {
+    color: #fff;
+    text-shadow: 0 0 10px #262626, 0 0 20px #4f4f4f, 0 0 40px #828282,
+      0 0 80px #cacaca, 0 0 160px #ffffff, 0 0 400px #ffffff;
+  }
+}
+
+.tekst2 p {
+  text-align: center;
+  color: black;
+  line-height: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 450px;
+  font-family: serif;
+}
+
+/* Data og research indsamling */
+.data {
+  display: flex;
+  margin-top: 70px;
+  margin-left: 15vh;
+}
+
+.data h2 {
+  font-size: 80px;
+  font-family: serif;
+}
+
+.data img {
+  width: 60%;
+  margin-top: 60px;
+  margin-left: 10vh;
+}
+
+.data p {
+  font-size: 20px;
+  line-height: 2rem;
+  border: 1px solid black;
+  padding: 50px;
+  margin-right: 10%;
+  font-family: serif;
+}
+
+.data2 iframe {
+  margin-top: 75%;
+}
+
+.streg3 {
+  margin-top: 10vh;
+  margin-left: 37vh;
+}
+
+/* Prototype/løsning */
+.prototype {
+  background-color: white;
+  padding: 80px;
+  margin: 80px;
+  margin-top: 20vh;
+  font-family: serif;
+}
+
+.prototype h3 {
+  font-size: 30px;
+  font-family: serif;
+}
+
+.prototype h4 {
+  font-size: 17px;
+  color: #868585;
+  font-family: serif;
+}
+
+.prototype img {
+  width: 20%;
+}
+
+.streg2 {
+  margin-top: 100px;
+}
+
+.løsning img {
+  width: 50%;
+}
+
+.løsning2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* link til ptch og prototype */
+.cleanweb {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.cleanweb img {
+  width: 20%;
+  margin-left: 25%;
+}
+
+.cleanweb p {
+  margin-left: 25%;
+  font-size: 20px;
+  font-family: serif;
+}
+
+.streg_1 {
+  margin-left: 7%;
+}
+
+/* Konklusion */
+.Konklusion2 {
+  background-color: #4d4d4d;
+  padding: 5%;
+  margin: 5%;
+}
+.Konklusion2 h2 {
+  color: #fff;
+  font-size: 50px;
+}
+
+.Konklusion2 p {
+  color: #fff;
+  line-height: 2rem;
+  font-size: 18px;
+}
+
+/*-------------------------------------------------------------
+Tema 4
+-------------------------------------------------------------*/
+.start {
+  display: flex;
+  margin-left: 10vh;
+}
+
+.start h1 {
+  color: white;
+  margin-top: 10px;
+  font-size: 700px;
+  font-family: serif;
+}
+
+.start img {
+  position: relative;
+  width: 600px;
+  height: 350px;
+  margin-top: 30vh;
+}
+
+.tekst3 {
+  margin-top: -74vh;
+  margin-bottom: 25vh;
+  font-family: serif;
+}
+
+.tekst3 h2 {
+  margin-top: 5%;
+  position: relative;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: serif;
+}
+
+.tekst3 h2 span {
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0%,
+  18%,
+  20%,
+  50.1%,
+  80%,
+  90.1%,
+  92% {
+    color: black;
+    text-shadow: none;
+  }
+  18.1%,
+  20.1%,
+  30%,
+  50%,
+  80.1%,
+  90%,
+  92.1%,
+  100% {
+    color: #fff;
+    text-shadow: 0 0 10px #262626, 0 0 20px #4f4f4f, 0 0 40px #828282,
+      0 0 80px #cacaca, 0 0 160px #ffffff, 0 0 400px #ffffff;
+  }
+}
+
+.tekst3 p {
+  text-align: center;
+  color: black;
+  line-height: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 450px;
+  font-family: serif;
+}
+
+/* pil */
+.pil_ned {
+  margin-top: 190px;
+  margin-left: 150px;
+  font-size: 70px;
+  color: rgba(255, 255, 255, 0.406);
+  font-family: serif;
+}
+
+@keyframes jump {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, -105%, 0);
+  }
+}
+.jump {
+  transform-origin: 50% 50%;
+  animation: jump 0.75s linear alternate infinite;
+}
+
+/* del 2 */
+.del2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 1px solid black;
+  padding: 4%;
+}
+
+.del2 img {
+  width: 250%;
+  margin-top: 20px;
+}
+
+.del2 p {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  line-height: 2rem;
+  padding: 40px;
+  margin-left: 30px;
+  margin-right: 60px;
+  font-family: serif;
+}
+
+/* del 3 */
+.del3 {
+  margin-left: 35%;
+}
+
+.del3 li {
+  list-style: none;
+  font-family: serif;
+}
+
+.del3 p {
+  font-size: 30px;
+  margin-left: 12%;
+  font-family: serif;
+}
+
+/* Konklusion */
+.Konklusion3 {
+  background-color: #4d4d4d;
+  padding: 5%;
+  margin: 5%;
+}
+.Konklusion3 h2 {
+  color: #fff;
+  font-size: 50px;
+}
+
+.Konklusion3 p {
+  color: #fff;
+  line-height: 2rem;
+  font-size: 18px;
+}
+
+/*-------------------------------------------------------------
+Tema 5
+-------------------------------------------------------------*/
+.start {
+  display: flex;
+  margin-left: 10vh;
+}
+
+.start h1 {
+  color: white;
+  margin-top: 10px;
+  font-size: 700px;
+  font-family: serif;
+}
+
+.start img {
+  position: relative;
+  width: 600px;
+  height: 350px;
+  margin-top: 30vh;
+}
+
+.tekst4 {
+  margin-top: -90vh;
+  margin-bottom: 25vh;
+  font-family: serif;
+}
+
+.tekst4 h2 {
+  margin-top: 5%;
+  position: relative;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: serif;
+}
+
+.tekst4 h2 span {
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0%,
+  18%,
+  20%,
+  50.1%,
+  80%,
+  90.1%,
+  92% {
+    color: black;
+    text-shadow: none;
+  }
+  18.1%,
+  20.1%,
+  30%,
+  50%,
+  80.1%,
+  90%,
+  92.1%,
+  100% {
+    color: #fff;
+    text-shadow: 0 0 10px #262626, 0 0 20px #4f4f4f, 0 0 40px #828282,
+      0 0 80px #cacaca, 0 0 160px #ffffff, 0 0 400px #ffffff;
+  }
+}
+
+.tekst4 p {
+  text-align: center;
+  color: black;
+  line-height: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 450px;
+  font-family: serif;
+}
+
+.overskrift h2 {
+  margin-top: 20%;
+  margin-bottom: -5%;
+  margin-left: 5%;
+  font-size: 400%;
+  margin-top: -80px;
+  font-family: serif;
+}
+
+/* del 4 */
+.del4 {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 5vh;
+  margin-bottom: 10%;
+  font-family: serif;
+}
+
+.del4 img {
+  width: 70%;
+  margin-top: 60px;
+  margin-left: 10vh;
+}
+
+.CP2 {
+  margin-left: 10vh;
+}
+.del4 p {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  line-height: 3rem;
+  border: 1px solid black;
+  padding: 40px;
+  margin-left: 30px;
+  margin-right: 60px;
+  font-family: serif;
+}
+
+/* Video */
+.overskrift2 h2 {
+  font-size: 300%;
+  color: white;
+  margin-left: 30%;
+  margin-bottom: -5%;
+  margin-top: 5%;
+  font-family: serif;
+}
+video {
+  margin-top: 10%;
+  max-width: 80%;
+  margin-left: 120px;
+}
+
+#video_container {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16/9;
+  line-height: 0;
+  position: relative;
+}
+#controls {
+  display: flex;
+  width: 35%;
+  margin-left: 47%;
+  margin-top: 10px;
+}
+#play,
+#stop {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 15%;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+  opacity: 40%;
+}
+#play {
+  background-size: 75%;
+  background-image: url("../img/play-kopi.svg");
+}
+#stop {
+  background-size: 65%;
+  background-image: url("../img/stop-kopi.svg");
+}
+
+/* redesign overskrift */
+.redesign h1 {
+  margin-left: 2%;
+  margin-top: 5%;
+  border: 1px solid black;
+  padding: 1%;
+  text-align: center;
+  font-family: serif;
+}
+
+/* Gammel og ny */
+.streg4 {
+  rotate: 90deg;
+  margin-top: 70%;
+}
+
+.gammel_ny {
+  background-color: white;
+  display: flex;
+  padding: 5%;
+  margin: 4%;
+  line-height: 2rem;
+  font-family: serif;
+}
+
+.gammel_ny h2 {
+  font-size: 50px;
+  font-family: serif;
+}
+
+.gammel_ny img {
+  width: 90%;
+  display: flex;
+  border: 3px solid black;
+}
+
+.gamweb {
+  margin-top: 5%;
+  font-family: serif;
+}
+
+.nyeweb {
+  background-color: black;
+  padding: 5%;
+}
+
+.nyeweb h2 {
+  color: white;
+  font-family: serif;
+}
+
+.nyeweb p {
+  color: white;
+  font-family: serif;
+}
+.nyeweb h3 {
+  color: white;
+  font-family: serif;
+}
+
+.del7 {
+  margin-left: 35%;
+  font-family: serif;
+}
+
+.del7 li {
+  list-style: none;
+  font-family: serif;
+}
+
+.del7 p {
+  font-size: 30px;
+  margin-left: 6%;
+  font-family: serif;
+}
+
+/* Konklusion */
+.Konklusion5 {
+  background-color: #4d4d4d;
+  padding: 5%;
+  margin: 5%;
+}
+.Konklusion5 h2 {
+  color: #fff;
+  font-size: 50px;
+}
+
+.Konklusion5 p {
+  color: #fff;
+  line-height: 2rem;
+  font-size: 18px;
+}
+
+/*-------------------------------------------------------------
+Tema 6
+-------------------------------------------------------------*/
+.start {
+  display: flex;
+  margin-left: 10vh;
+}
+
+.start h1 {
+  color: white;
+  margin-top: 10px;
+  font-size: 700px;
+  font-family: serif;
+}
+
+.start img {
+  position: relative;
+  width: 600px;
+  height: 350px;
+  margin-top: 30vh;
+}
+
+.tekst5 {
+  margin-top: -90vh;
+  margin-bottom: 25vh;
+  font-family: serif;
+}
+
+.tekst5 h2 {
+  margin-top: 5%;
+  position: relative;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: serif;
+}
+
+.tekst5 h2 span {
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0%,
+  18%,
+  20%,
+  50.1%,
+  80%,
+  90.1%,
+  92% {
+    color: black;
+    text-shadow: none;
+  }
+  18.1%,
+  20.1%,
+  30%,
+  50%,
+  80.1%,
+  90%,
+  92.1%,
+  100% {
+    color: #fff;
+    text-shadow: 0 0 10px #262626, 0 0 20px #4f4f4f, 0 0 40px #828282,
+      0 0 80px #cacaca, 0 0 160px #ffffff, 0 0 400px #ffffff;
+  }
+}
+
+.tekst5 p {
+  text-align: center;
+  color: black;
+  line-height: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 450px;
+  font-family: serif;
+}
+
+.eksamen {
+  background-color: white;
+  padding: 5%;
+  margin: 3%;
+}
+
+.eksamen img {
+  width: 50%;
+  border: 1px solid black;
+}
+
+.eksamen p {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  line-height: 2rem;
+}
+
+.eksamen2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* Konklusion */
+.Konklusion6 {
+  background-color: #4d4d4d;
+  padding: 5%;
+  margin: 5%;
+}
+.Konklusion6 h2 {
+  color: #fff;
+  font-size: 50px;
+}
+
+.Konklusion6 p {
+  color: #fff;
+  line-height: 2rem;
+  font-size: 18px;
+}
+
+/*-------------------------------------------------------------
+MEDIAQUIERES
+-------------------------------------------------------------*/
+@media screen and (max-width: 600px) {
+  /* om mig */
+  .om-mig img {
+    width: 150px;
+  }
+
+  .content {
+    margin-left: 20px;
+    background-color: #fff;
+    padding: 2%;
+    line-height: 2rem;
+  }
+
+  /* portifolio */
+  nav ul li {
+    list-style: none;
+    font-size: 14px;
+    margin-left: 10px;
+    font-family: serif;
+    font-weight: bolder;
+  }
+
+  body {
+    background-image: url("../img/baggrund2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+  }
+
+  .start h1 {
+    color: white;
+    margin-top: 10px;
+    font-size: 150px;
+    font-family: serif;
+  }
+
+  .start h2 {
+    font-size: 50px;
+    line-height: 100px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background-image: url("../img/back.png");
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    font-family: serif;
+  }
+
+  .tekst {
+    margin-top: -83vh;
+    margin-bottom: 25vh;
+  }
+
+  .tekst h2 {
+    position: relative;
+    font-size: 20px;
+    margin-top: 105%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: serif;
+  }
+
+  .tekst p {
+    text-align: center;
+    color: black;
+    line-height: 1rem;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 40%;
+  }
+
+  /* computersite */
+
+  .computersite h2 {
+    font-size: 40px;
+  }
+
+  .computersite img {
+    width: 90%;
+    margin-top: 60px;
+    margin-left: 10px;
+  }
+  .CP2 {
+    width: 90%;
+    margin-left: 10%;
+  }
+
+  .html {
+    font-size: 10px;
+    line-height: 1rem;
+    border: 1px solid black;
+    padding: 20px;
+    font-family: serif;
+  }
+
+  /* Link til website og dokumentation */
+  .se {
+    color: rgb(0, 0, 0);
+    margin-left: 145px;
+    font-family: serif;
+    font-size: 10px;
+  }
+  .Website1 img {
+    width: 10%;
+    margin-left: 150px;
+    margin-top: -6%;
+  }
+
+  .streg {
+    margin-top: 90px;
+    font-size: 30%;
+    margin-left: 10%;
+  }
+
+  /* stilart */
+  .stilart {
+    display: flex;
+    margin-left: 10%;
+    margin-top: 3%;
+  }
+
+  .stilart h1 {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: serif;
+  }
+
+  .stilart h2 {
+    font-size: 20px;
+    color: white;
+    font-family: serif;
+  }
+
+  .stilart2 {
+    font-size: 50%;
+    padding: 3%;
+    border: 1px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    font-family: serif;
+  }
+
+  .stilart p {
+    line-height: 2rem;
+    font-family: serif;
+  }
+
+  .stilart iframe {
+    margin-left: 1%;
+    width: 100%;
+  }
+
+  .stilart img {
+    width: 40%;
+  }
+
+  /* emnesite */
+  .emnesite {
+    display: flex;
+    margin-top: 70px;
+    margin-right: 35vh;
+    margin-bottom: 70px;
+  }
+
+  .emnesite h2 {
+    font-size: 30px;
+    margin-right: 35vh;
+    font-family: serif;
+  }
+
+  .emnesite p {
+    font-size: 20px;
+    line-height: 2rem;
+    border: 1px solid black;
+    padding: 50px;
+    font-family: serif;
+  }
+
+  .emnesite img {
+    width: 0%;
+    margin-top: 60px;
+    margin-left: 5vh;
+  }
+
+  /* Link til emnesite */
+  .emnesite1 {
+    width: 100px;
+    margin-left: 90px;
+  }
+
+  .emnesite h4 {
+    font-family: serif;
+  }
+  .emnesite1 a {
+    width: 50%;
+  }
+
+  .streg_1 {
+    margin-top: 90px;
+    font-size: 30%;
+    margin-left: 10%;
+  }
+
+  /* grundlæggende ux */
+
+  .start h1 {
+    color: white;
+    margin-top: 10px;
+    font-size: 150px;
+    font-family: serif;
+  }
+  .tekst2 {
+    margin-top: -83vh;
+    margin-bottom: 25vh;
+  }
+
+  .tekst2 h2 {
+    position: relative;
+    font-size: 20px;
+    margin-top: 105%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: serif;
+  }
+
+  .tekst2 p {
+    text-align: center;
+    color: black;
+    line-height: 1rem;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 40%;
+    font-family: serif;
+  }
+
+  /* Data og research indsamling */
+  .data {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 10%;
+  }
+
+  .data h2 {
+    font-size: 30px;
+    font-family: serif;
+  }
+
+  .data img {
+    width: 60%;
+    margin-top: 60px;
+    margin-left: 10vh;
+  }
+
+  .data p {
+    font-size: 10px;
+    line-height: 1rem;
+    border: 1px solid black;
+    padding: 50px;
+
+    font-family: serif;
+  }
+
+  .data2 iframe {
+    margin-top: 85%;
+    width: 60%;
+  }
+
+  .streg3 {
+    margin-top: 90px;
+    font-size: 30%;
+    margin-left: 10%;
+  }
+
+  /* Prototype/løsning */
+  .prototype {
+    background-color: white;
+    padding: 20px;
+    margin: 100px;
+    margin-top: 20vh;
+    font-family: serif;
+  }
+
+  .prototype h3 {
+    font-size: 30px;
+    font-family: serif;
+  }
+
+  .prototype h4 {
+    font-size: 17px;
+    color: #868585;
+    font-family: serif;
+  }
+
+  .prototype img {
+    width: 20%;
+  }
+
+  .streg2 {
+    margin-top: 90px;
+    font-size: 15%;
+    margin-left: 5%;
+  }
+
+  .løsning img {
+    width: 80%;
+  }
+
+  /* Grundlæggende Animation */
+
+  .tekst3 {
+    margin-top: -83vh;
+    margin-bottom: 25vh;
+  }
+
+  .tekst3 h2 {
+    position: relative;
+    font-size: 20px;
+    margin-top: 105%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: serif;
+  }
+
+  .tekst3 p {
+    text-align: center;
+    color: black;
+    line-height: 1rem;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 40%;
+    font-family: serif;
+  }
+
+  /* pil */
+  .pil_ned {
+    margin-top: 10px;
+  }
+
+  /* del 2 */
+  .del2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .del2 p {
+    font-size: 10px;
+    line-height: 2rem;
+
+    margin-left: -50%;
+    margin-left: -20%;
+    font-family: serif;
+  }
+
+  .del2 iframe {
+    width: 50%;
+  }
+
+  /* del 3 */
+  .del3 {
+    margin-left: 15%;
+  }
+
+  .del3 li {
+    list-style: none;
+  }
+
+  .del3 p {
+    margin-left: 27%;
+  }
+
+  /* Grundlæggende indhold */
+  .tekst4 {
+    margin-top: -87vh;
+    margin-bottom: 25vh;
+  }
+
+  .tekst4 h2 {
+    position: relative;
+    font-size: 20px;
+    margin-top: 105%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: serif;
+  }
+
+  .tekst4 p {
+    text-align: center;
+    color: black;
+    line-height: 1rem;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 40%;
+    font-family: serif;
+  }
+
+  .overskrift h2 {
+    margin-top: 20%;
+    margin-bottom: -5%;
+    margin-left: 5%;
+    font-size: 300%;
+    margin-top: -80px;
+    font-family: serif;
+  }
+
+  /* del 4 */
+  .del4 {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 5vh;
+    margin-bottom: 10%;
+  }
+
+  .del4 img {
+    width: 1%;
+  }
+
+  .del4 p {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    line-height: 2rem;
+    border: 1px solid black;
+    padding: 20px;
+    font-family: serif;
+  }
+
+  /* Video */
+  .overskrift2 h2 {
+    font-size: 200%;
+    color: white;
+    margin-left: 10%;
+    margin-bottom: -5%;
+    margin-top: 5%;
+    font-family: serif;
+  }
+  video {
+    margin-top: 10%;
+    max-width: 80%;
+    margin-left: 60px;
+  }
+
+  /* redesign overskrift */
+  .redesign h1 {
+    margin-left: 2%;
+    margin-top: 5%;
+    border: 3px solid black;
+    padding: 1%;
+    text-align: center;
+    font-family: serif;
+  }
+
+  /* Gammel og ny */
+  .streg4 {
+    rotate: 90deg;
+    margin-top: 70%;
+  }
+
+  .gammel_ny {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5%;
+    margin: 4%;
+    line-height: 2rem;
+    font-family: serif;
+  }
+
+  .gammel_ny h2 {
+    font-size: 50px;
+    font-family: serif;
+  }
+
+  .gamweb {
+    margin-top: 5%;
+    font-family: serif;
+  }
+
+  .nyeweb {
+    background-color: black;
+    padding: 5%;
+  }
+  /* Eksamen */
+  .tekst5 {
+    margin-top: -83vh;
+    margin-bottom: 25vh;
+  }
+
+  .tekst5 h2 {
+    position: relative;
+    font-size: 20px;
+    margin-top: 105%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: serif;
+  }
+
+  .tekst5 p {
+    text-align: center;
+    color: black;
+    line-height: 1rem;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 40%;
+    font-family: serif;
+  }
+}
+
+/*-------------------------------------------------------------
+footer
+-------------------------------------------------------------*/
+.footer p {
+  color: #474747;
+}

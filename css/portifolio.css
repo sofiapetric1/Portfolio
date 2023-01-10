@@ -1,0 +1,183 @@
+/*-------------------------------------------------------------
+PORTFOLIO
+-------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap");
+
+body {
+  background-image: url("../img/baggrund.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+
+nav ul {
+  display: flex;
+  margin: 50px;
+}
+
+h1 {
+  color: white;
+  margin-left: 500px;
+  font-size: 80px;
+  text-transform: uppercase;
+}
+
+h1 span {
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    color: black;
+    text-shadow: none;
+  }
+  100% {
+    color: #fff;
+    text-shadow: 0 0 10px #262626, 0 0 20px #4f4f4f, 0 0 40px #828282,
+      0 0 80px #cacaca, 0 0 160px #ffffff, 0 0 400px #ffffff;
+  }
+}
+
+nav ul li {
+  list-style: none;
+  font-size: 30px;
+  margin-left: 370px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: antiquewhite;
+}
+
+.portfolio {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 20vw;
+  height: 20px;
+  margin: 10px;
+}
+
+.portfolio a {
+  margin: 25px;
+  padding: 25px;
+  line-height: 200px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 75px;
+  color: transparent;
+}
+
+.tema2 {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin: 3vw;
+  background-image: url("../img/tema2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tema2:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.tema3 {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin: 3vw;
+  background-image: url("../img/tema3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tema3:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.tema4 {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin: 3vw;
+  background-image: url("../img/tema4.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tema4:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.tema5 {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin: 3vw;
+  background-image: url("../img/tema5.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tema5:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.tema6 {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin: 3vw;
+  background-image: url("../img/tema6.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tema6:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+/*-------------------------------------------------------------
+MEDIAQUIERES
+-------------------------------------------------------------*/
+@media screen and (max-width: 600px) {
+  nav ul li {
+    font-size: 30px;
+    margin-left: 30px;
+  }
+  body {
+    background-color: #c3c1c1;
+  }
+  .portfolio {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  h1 {
+    margin-left: 70px;
+    font-size: 50px;
+  }
+}
+
+/*-------------------------------------------------------------
+footer
+-------------------------------------------------------------*/
+.footer p {
+  color: #474747;
+}
